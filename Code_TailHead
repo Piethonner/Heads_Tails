@@ -1,10 +1,9 @@
-## Heads / Tails randomizer with random module ##
+# Heads / Tails randomizer with random module
 
 import random
-coin = random.randint(0,1)
+
+coin = random.randint(0, 1)
 if coin == 1:
-  print("Heads")
+    print("Heads")
 else:
-  print("Tails")
-  
-  ## Ende! ##
+    print("Tails")
